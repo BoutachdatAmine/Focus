@@ -1,6 +1,4 @@
 # Goal
-*Describe how this web app will (eventually) earn money or make the world a better place*
-
 De bedoeling is om de website van onze lokale bioscoop te verbeteren. De Focus bioscoop heeft momenteel twee websites. De eerste website geeft een overzicht van de actuele films, de tweede website wordt gebruikt als webshop waar de klanten hun tickets kunnen aankopen.
 
 - http://www.cinemafocus.be/
@@ -10,7 +8,6 @@ De bedoeling is om de website van onze lokale bioscoop te verbeteren. De Focus b
 Onze dynamische website zal ervoor zorgen dat de bioscoop over één website beschikt waar een duidelijk en modern overzicht van de actuele en aankomende films getoond zal worden. Verder zullen de aankopen op diezelfde website gebeuren.
 
 # Acceptance criteria
-*How do we know that the goals have been reached?*
 
 ## Klant
 
@@ -40,7 +37,6 @@ Onze dynamische website zal ervoor zorgen dat de bioscoop over één website bes
 - Als bezoeker kan ik een programma zien van wanneer een film zal worden afgespeeld
 
 # Threat model
-*Describe your threat model. One or more architectural diagram expected. Also a list of the principal threats and what you will do about them*
 
 ![ThreatModelDFD](https://user-images.githubusercontent.com/64362709/146467018-f7ae7e17-f3e7-4bf5-8ea0-3d5b3c65943d.jpg)
 
@@ -75,14 +71,6 @@ Onze dynamische website zal ervoor zorgen dat de bioscoop over één website bes
 - **Cyber criminals:** Probleem: Stelen van gevoelige data. Oplossing: SSL certificaat voorzien (Google Firebase Hosting), login pogingen voorzien en sterke wachtwoorden gebruiken.
 
 # Deployment
-*Minimally, this section contains a public URL of the app. A description of how your software is deployed is a bonus. Do you do this manually, or did you manage to automate? Have you taken into account the security of your deployment process?*
-
 Onze oplossing bevat 2 applicaties. Enerzijds een React applicatie en anderzijds een Express.js REST API. De applicaties zijn terug te vinden op: 
 - De React app is gedeployed via firebase hosting: https://thewolfpackreact.web.app
 - De REST API is gedeployed via Nginx: https://www.the-wolf-pack.be/movies
-
-> Demo 1: Het deployment is niet geautomatiseerd voor beide apps. Dit willen we graag automatiseren tegen demo 2. 
-
-
-# *You may want further sections*
-*Especially if the use of your application is not self-evident*
